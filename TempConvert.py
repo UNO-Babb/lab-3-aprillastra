@@ -10,7 +10,7 @@ def main():
   #Output converted temperature.
   tempF = 80
 
-  tempC = tempF / 2
+  tempC = round((tempF-32) / 1.8, 1) #Round to 1 decimal place 
 
   print(tempF, "is ", tempC, "degrees celsius.")
 if __name__ == '__main__':
